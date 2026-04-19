@@ -91,18 +91,18 @@ footer a { color: var(--muted); margin: 0 10px; }
   <div class="nav-inner">
     <a class="brand" href="index.html">
       <img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/PteV714zwbo5yxfRGvH2R-screenshot.png" alt="">
-      <span>SF Dictionary</span>
+      <span data-edit="brand.name">SF Dictionary</span>
     </a>
     <div>
-      <a href="index.html">Home</a>
-      <a href="contact.html" aria-current="page">Contact</a>
-      <a href="privacy.html">Privacy</a>
+      <a href="index.html" data-edit="nav.home">Home</a>
+      <a href="contact.html" data-edit="nav.contact" aria-current="page">Contact</a>
+      <a href="privacy.html" data-edit="nav.privacy">Privacy</a>
     </div>
   </div>
 </nav>
   <main><section class="contact-header">
   <div class="container">
-    <h1>Contact SF Dictionary</h1>
+    <h1 data-edit="support.heading">Contact SF Dictionary</h1>
     <p class="lead" data-edit="support.intro">We&#39;re here to help. Reach out and we&#39;ll get back to you as soon as we can.</p>
   </div>
 </section>
@@ -114,11 +114,11 @@ footer a { color: var(--muted); margin: 0 10px; }
 <section class="cards-section">
   <div class="container">
     <div class="cards"><div class="card">
-  <h3>Email</h3>
-  <p><a href="mailto:cooldipojjal@gmail.com">cooldipojjal@gmail.com</a></p>
+  <h3 data-edit="support.cards.email.label">Email</h3>
+  <p><a href="mailto:cooldipojjal@gmail.com" data-edit="support.email">cooldipojjal@gmail.com</a></p>
 </div><div class="card">
-  <h3>Support hours</h3>
-  <p>Mon–Fri, 9:00–17:00</p>
+  <h3 data-edit="support.cards.hours.label">Support hours</h3>
+  <p data-edit="support.hours">Mon–Fri, 9:00–17:00</p>
 </div></div>
   </div>
 </section>
@@ -131,13 +131,13 @@ footer a { color: var(--muted); margin: 0 10px; }
 </style>
 <section class="faq-section">
   <div class="container">
-    <h2>Frequently asked questions</h2>
+    <h2 data-edit="support.faqs.heading">Frequently asked questions</h2>
     <div class="faq"><details>
-  <summary>How do I get started with SF Dictionary?</summary>
-  <p>Download the app from the store and follow the on-screen instructions.</p>
+  <summary data-edit="support.faqs.0.question">How do I get started with SF Dictionary?</summary>
+  <p data-edit="support.faqs.0.answer">Download the app from the store and follow the on-screen instructions.</p>
 </details><details>
-  <summary>How do I contact support?</summary>
-  <p>Email us at cooldipojjal@gmail.com and we&#39;ll get back to you within one business day.</p>
+  <summary data-edit="support.faqs.1.question">How do I contact support?</summary>
+  <p data-edit="support.faqs.1.answer">Email us at cooldipojjal@gmail.com and we&#39;ll get back to you within one business day.</p>
 </details></div>
   </div>
 </section>
@@ -152,8 +152,8 @@ details[open] summary { margin-bottom: 8px; }
 details p { margin: 0; color: var(--muted); }
 </style></main>
   <footer>
-  <div><a href="index.html">Home</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div>
-  <div style="margin-top: 8px;">© 2026 SF Dictionary. All rights reserved.</div>
+  <div><a href="index.html" data-edit="footer.links.0">Home</a><a href="contact.html" data-edit="footer.links.1">Contact</a><a href="privacy.html" data-edit="footer.links.2">Privacy</a></div>
+  <div style="margin-top: 8px;" data-edit="footer.copyright">© 2026 SF Dictionary. All rights reserved.</div>
 </footer>
 </body>
 </html>
