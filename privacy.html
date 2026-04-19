@@ -91,43 +91,43 @@ footer a { color: var(--muted); margin: 0 10px; }
   <div class="nav-inner">
     <a class="brand" href="index.html">
       <img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/PteV714zwbo5yxfRGvH2R-screenshot.png" alt="">
-      <span>SF Dictionary</span>
+      <span data-edit="brand.name">SF Dictionary</span>
     </a>
     <div>
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html" aria-current="page">Privacy</a>
+      <a href="index.html" data-edit="nav.home">Home</a>
+      <a href="contact.html" data-edit="nav.contact">Contact</a>
+      <a href="privacy.html" data-edit="nav.privacy" aria-current="page">Privacy</a>
     </div>
   </div>
 </nav>
   <main><section class="privacy-header">
   <div class="container">
-    <h1>Privacy Policy</h1>
-    <p class="effective">Effective Date: 2026-04-19</p>
+    <h1 data-edit="privacy.heading">Privacy Policy</h1>
+    <p class="effective"><span data-edit="privacy.effectiveLabel">Effective Date</span>: <span data-edit="privacy.effectiveDate">2026-04-19</span></p>
   </div>
 </section>
 <section class="privacy-body">
   <div class="container narrow">
-    <h2>1. Introduction</h2>
+    <h2 data-edit="privacy.sections.intro.title">1. Introduction</h2>
 <p data-edit="privacy.intro">This Privacy Policy describes how Dipojjal Chakrabarti (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) collects, uses, and shares information when you use SF Dictionary.</p>
-<h2>2. Information We Collect</h2>
-<p>We collect the following categories of information:</p>
-<ul><li>Account information (email, name)</li><li>Usage data (features used, frequency)</li><li>Device information (model, operating system)</li></ul>
-<h2>3. Third-Party Services</h2>
-<p>We may share information with the following third-party services:</p>
-<ul><li>Analytics providers</li><li>Cloud storage services</li></ul>
-<h2>4. Data Security</h2>
-<p>We take reasonable measures to protect your information against unauthorized access, alteration, or destruction. No method of transmission over the Internet is 100% secure.</p>
-<h2>5. Children's Privacy</h2>
-<p>SF Dictionary is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us and we will delete it.</p>
-<h2>6. Your Rights (GDPR)</h2>
-<p>If you are located in the European Economic Area, you have the right to access, correct, delete, restrict processing of, or object to the processing of your personal data. You may exercise these rights by contacting us at cooldipojjal@gmail.com.</p>
-<h2>7. Your Rights (CCPA)</h2>
-<p>California residents have the right to request disclosure of the personal information we collect, delete their personal information, and opt out of the sale of their personal information. We do not sell personal information.</p>
-<h2>8. Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time. We will post the new policy on this page and update the "Effective Date" below.</p>
-<h2>9. Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, contact us at <a href="mailto:cooldipojjal@gmail.com">cooldipojjal@gmail.com</a>.</p>
+<h2 data-edit="privacy.sections.dataCollected.title">2. Information We Collect</h2>
+<p data-edit="privacy.dataCollected.intro">We collect the following categories of information:</p>
+<ul><li data-edit="privacy.dataCollected.0">Account information (email, name)</li><li data-edit="privacy.dataCollected.1">Usage data (features used, frequency)</li><li data-edit="privacy.dataCollected.2">Device information (model, operating system)</li></ul>
+<h2 data-edit="privacy.sections.thirdParties.title">3. Third-Party Services</h2>
+<p data-edit="privacy.thirdParties.intro">We may share information with the following third-party services:</p>
+<ul><li data-edit="privacy.thirdParties.0">Analytics providers</li><li data-edit="privacy.thirdParties.1">Cloud storage services</li></ul>
+<h2 data-edit="privacy.sections.security.title">4. Data Security</h2>
+<p data-edit="privacy.security.body">We take reasonable measures to protect your information against unauthorized access, alteration, or destruction. No method of transmission over the Internet is 100% secure.</p>
+<h2 data-edit="privacy.sections.children.title">5. Children&#39;s Privacy</h2>
+<p data-edit="privacy.children.body">SF Dictionary is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us and we will delete it.</p>
+<h2 data-edit="privacy.sections.gdpr.title">6. Your Rights (GDPR)</h2>
+<p data-edit="privacy.gdpr.body">If you are located in the European Economic Area, you have the right to access, correct, delete, restrict processing of, or object to the processing of your personal data. You may exercise these rights by contacting us at cooldipojjal@gmail.com.</p>
+<h2 data-edit="privacy.sections.ccpa.title">7. Your Rights (CCPA)</h2>
+<p data-edit="privacy.ccpa.body">California residents have the right to request disclosure of the personal information we collect, delete their personal information, and opt out of the sale of their personal information. We do not sell personal information.</p>
+<h2 data-edit="privacy.sections.changes.title">8. Changes to This Policy</h2>
+<p data-edit="privacy.changes.body">We may update this Privacy Policy from time to time. We will post the new policy on this page and update the &quot;Effective Date&quot; below.</p>
+<h2 data-edit="privacy.sections.contact.title">9. Contact Us</h2>
+<p data-edit="privacy.contact.body">If you have any questions about this Privacy Policy, contact us at <a href="mailto:cooldipojjal@gmail.com">cooldipojjal@gmail.com</a>.</p>
   </div>
 </section>
 <style>
@@ -142,8 +142,8 @@ footer a { color: var(--muted); margin: 0 10px; }
 .privacy-body li { margin: 6px 0; color: var(--text); }
 </style></main>
   <footer>
-  <div><a href="index.html">Home</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div>
-  <div style="margin-top: 8px;">© 2026 SF Dictionary. All rights reserved.</div>
+  <div><a href="index.html" data-edit="footer.links.0">Home</a><a href="contact.html" data-edit="footer.links.1">Contact</a><a href="privacy.html" data-edit="footer.links.2">Privacy</a></div>
+  <div style="margin-top: 8px;" data-edit="footer.copyright">© 2026 SF Dictionary. All rights reserved.</div>
 </footer>
 </body>
 </html>
