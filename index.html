@@ -91,12 +91,12 @@ footer a { color: var(--muted); margin: 0 10px; }
   <div class="nav-inner">
     <a class="brand" href="index.html">
       <img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/PteV714zwbo5yxfRGvH2R-screenshot.png" alt="">
-      <span>SF Dictionary</span>
+      <span data-edit="brand.name">SF Dictionary</span>
     </a>
     <div>
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy</a>
+      <a href="index.html" data-edit="nav.home" aria-current="page">Home</a>
+      <a href="contact.html" data-edit="nav.contact">Contact</a>
+      <a href="privacy.html" data-edit="nav.privacy">Privacy</a>
     </div>
   </div>
 </nav>
@@ -106,8 +106,8 @@ footer a { color: var(--muted); margin: 0 10px; }
       <h1 data-edit="hero.headline">Salesforce Dictionary</h1>
       <p class="lead" data-edit="hero.subheadline">Salesforce Dictionary is your go-to reference for mastering Salesforce terminologies.</p>
       <div class="cta-row">
-        <a class="btn" href="#features">Download</a>
-        <a class="btn btn-outline" href="contact.html">Contact us</a>
+        <a class="btn" href="#features" data-edit="hero.primaryCta.label">Download</a>
+        <a class="btn btn-outline" href="contact.html" data-edit="hero.secondaryCta.label">Contact us</a>
       </div>
     </div>
     <div class="hero-visual"><img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/PteV714zwbo5yxfRGvH2R-screenshot.png" alt="App preview"></div>
@@ -133,10 +133,8 @@ footer a { color: var(--muted); margin: 0 10px; }
   <h3 data-edit="features.0.title">Salesforce Dictionary is your go-to reference for </h3>
   <p data-edit="features.0.description">Whether you&#39;re preparing for a certification or just getting started, this app makes learning Salesforce concepts easy and engaging.</p>
 </article><article class="feature">
-  <h3 data-edit="features.1.title">Unique Features:
-• Comprehensive dictionary of Sal</h3>
-  <p data-edit="features.1.description">Unique Features:
-• Comprehensive dictionary of Salesforce terms and concepts
+  <h3 data-edit="features.1.title">Unique Features:</h3>
+  <p data-edit="features.1.description">Comprehensive dictionary of Salesforce terms and concepts
 • Study mode with flashcards and quizzes
 • Certification-focused learning paths
 • Interactive Galaxy visualization of term relationships
@@ -160,7 +158,7 @@ footer a { color: var(--muted); margin: 0 10px; }
 </style>
 <section class="screenshots">
   <div class="container">
-    <h2>See it in action</h2>
+    <h2 data-edit="screenshots.heading">See it in action</h2>
     <div class="screens"><img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/PteV714zwbo5yxfRGvH2R-screenshot.png" alt="Screenshot"><img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/he7qz7YxsSp6HrnLkhBcn-screenshot.png" alt="Screenshot"><img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/UaCqlhGIW3bql3imcJWl5-screenshot.png" alt="Screenshot"><img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/PTpAJsWiD0Y6o9PalDaNm-screenshot.png" alt="Screenshot"><img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/dzBBAjSO6kecJ_bvp7iEm-screenshot.png" alt="Screenshot"><img src="https://pub-ba59bd08c9ce4a08ba886a6058d689e6.r2.dev/screenshots/cmo1258ks0001ju0405afy5q6/XFPOr_0cRUBCDigQeSk__-screenshot.png" alt="Screenshot"></div>
   </div>
 </section>
@@ -175,7 +173,7 @@ footer a { color: var(--muted); margin: 0 10px; }
 <section class="final-cta">
   <div class="container">
     <h2 data-edit="finalCta.headline">Ready to get started with SF Dictionary?</h2>
-    <a class="btn" href="#features">Download</a>
+    <a class="btn" href="#features" data-edit="hero.primaryCta.label">Download</a>
   </div>
 </section>
 <style>
@@ -183,8 +181,8 @@ footer a { color: var(--muted); margin: 0 10px; }
 .final-cta h2 { font-size: 36px; margin: 0 0 24px; }
 </style></main>
   <footer>
-  <div><a href="index.html">Home</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div>
-  <div style="margin-top: 8px;">© 2026 SF Dictionary. All rights reserved.</div>
+  <div><a href="index.html" data-edit="footer.links.0">Home</a><a href="contact.html" data-edit="footer.links.1">Contact</a><a href="privacy.html" data-edit="footer.links.2">Privacy</a></div>
+  <div style="margin-top: 8px;" data-edit="footer.copyright">© 2026 SF Dictionary. All rights reserved.</div>
 </footer>
 </body>
 </html>
